@@ -1,0 +1,707 @@
+body{ background-color: rgb(80, 80, 80);}
+
+
+
+/*Presets */
+
+
+
+/*smallbox */
+
+.inner{ width: 20%; height: 20%; background: rgb(177, 177, 177); display: inline-block;
+position: absolute;
+top: 84%;
+  left: 15.5%;
+ transform: translate(-50%,-50%);
+    border: 10px solid #000000;
+   z-index: 8;
+  
+}
+
+#Neext { color: rgb(255, 255, 255);
+position: absolute;
+top: 88%;
+left: 90%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+z-index: 12;
+
+}
+
+
+.Next1 { color: rgb(255, 255, 255);
+position: absolute;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+top: 87.5%;
+left: 89%;
+z-index: 12;
+font-size: 35px;
+text-decoration: none;
+
+}
+
+.Next1:hover {
+  transform: scale(1.5); 
+  transition: 0.2s;
+}
+
+
+/*Subtitles */
+
+
+#yap1 {color: rgb(46, 98, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+top: 25%;
+left: 10%;
+z-index: 3;
+font-size: 180px;
+
+}
+
+.subtitles{ width: 90%; height: 10%; background-color: rgb(0, 0, 0); opacity: calc(0.5);
+position: absolute;
+top: 90%;
+  left: 50%;
+ transform: translate(-50%,-50%);
+    border: 10px solid #000000;
+   z-index: 5;
+
+}
+
+
+
+.outline { width: 90%; height: 90%; background: rgb(0, 0, 0); display: inline-block;
+position: absolute;
+top: 50%;
+  left: 50%;
+ transform: translate(-50%,-50%);
+    border: 10px solid #000000;
+   z-index: 1;
+   
+
+}
+
+
+/* Bouton */
+
+.click-me { width: 200px; height: 200px; background-color: red;
+    -webkit-text-fill-color: rgb(255, 0, 0);
+    
+    
+
+}
+
+/*Image 1 test */
+
+.Test1 { width: 90%; height: 90%;
+    position: absolute;
+top: 50%;
+  left: 50%;
+ transform: translate(-50%,-50%);
+ z-index: 2;
+
+}
+
+
+
+
+
+/*page1 */
+
+
+#Textp1 {color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+top: 87.5%;
+left: 40%;
+z-index: 40;
+font-size: 25px;
+
+}
+
+
+.Monstre1 { width: 20%; height: 35%;
+    position: absolute;
+top: 25%;
+  left: 60%;
+
+ transform: translate(-50%,-50%);
+ transform: scaleX(-1);
+ z-index: 2; }
+
+
+
+ .Player { width: 20%; height: 30%;
+    position: absolute;
+top: 45%;
+  left: 30%;
+
+ transform: translate(-50%,-50%);
+ z-index: 4; }
+
+
+
+ .background1 { width: 90%; height: 90%;
+    position: absolute;
+top: 50%;
+  left: 50%;
+ transform: translate(-50%,-50%);
+ z-index: 2; }
+
+ /*page2 */
+
+ .subtitles2{ width: 90%; height: 80%; background-color: rgb(0, 0, 0); opacity: calc(0.7);
+position: absolute;
+top: 50%;
+  left: 50%;
+ transform: translate(-50%,-50%);
+    border: 10px solid #000000;
+   z-index: 5;
+
+ }
+
+  .Basic { width: 13%; height: 20%;
+    position: absolute;
+top: 45%;
+  left: 30%;
+
+ transform: translate(-50%,-50%);
+ z-index: 6; }
+
+  .Special { width: 13%; height: 20%;
+    position: absolute;
+top: 45%;
+  left: 70%;
+
+ transform: translate(-50%,-50%);
+ z-index: 6; }
+
+  .Riposte { width: 13%; height: 20%;
+    position: absolute;
+top: 45%;
+  left: 50%;
+
+ transform: translate(-50%,-50%);
+ z-index: 6; }
+
+ #Textp2 {color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+top: 20%;
+left: 32.5%;
+z-index: 40;
+font-size: 60px;
+ }
+ 
+  .Basic:hover {
+ height: 30%;
+ width: 20%;
+  transition: 0.2s;
+}
+
+  .Special:hover {
+ height: 30%;
+ width: 20%;
+  transition: 0.2s;
+  }
+
+    .Riposte:hover {
+ height: 30%;
+ width: 20%;
+  transition: 0.2s;
+
+    }
+
+
+ /*page3 */
+
+
+ .Basic2 { width: 10%; height: 16%;
+    position: absolute;
+top: 30%;
+  left: 8%;
+
+ transform: translate(-50%,-50%);
+ z-index: 6; }
+
+  .Special2 { width: 10%; height: 16%;
+    position: absolute;
+top: 50%;
+  left: 8%;
+
+ transform: translate(-50%,-50%);
+ z-index: 6; }
+
+  .Riposte2 { width: 10%; height: 16%;
+    position: absolute;
+top: 70%;
+  left: 8%;
+
+ transform: translate(-50%,-50%);
+ z-index: 6; }
+
+
+
+
+ 
+
+  .HighlightRiposte:hover {
+opacity: 0.8;
+  transition: 0.5s
+
+}
+
+  .HighlightSpecial:hover {
+opacity: 0.8;
+  transition: 0.5s
+
+}
+
+ #Textp3 {color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+top: 87%;
+left: 40%;
+z-index: 10;
+font-size: 60px;
+ }
+ 
+ .BASICRedirect1 { width: 10%; height: 16%; background-color: rgb(255, 255, 255); opacity: 0;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+position: absolute;
+top: 30%;
+  left: 8%;
+ transform: translate(-50%,-50%);
+   z-index: 10;
+    
+}
+ .BASICRedirect1:hover {
+opacity: 0.7;
+  transition: 0.5s
+ }
+
+  .SPECIALRedirect1 { width: 10%; height: 16%; background-color: rgb(255, 255, 255); opacity: 0;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+position: absolute;
+top: 70%;
+  left: 8%;
+ transform: translate(-50%,-50%);
+   z-index: 10;
+    
+}
+ .SPECIALRedirect1:hover {
+opacity: 0.7;
+  transition: 0.5s
+ }
+
+   .RIPOSTERedirect1 { width: 10%; height: 16%; background-color: rgb(255, 255, 255); opacity: 0;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+position: absolute;
+top: 50%;
+  left: 8%;
+ transform: translate(-50%,-50%);
+   z-index: 10;
+    
+}
+ .RIPOSTERedirect1:hover {
+opacity: 0.7;
+  transition: 0.5s
+ }
+
+ .gif-background {
+  background-image: url('Images/move1.gif'); /* Replace with your GIF's path */
+  background-size: cover; /* Scales the background image to cover the entire container */
+  background-repeat: repeat; /* Prevents the GIF from repeating */
+  background-position: center center; /* Centers the GIF within the container */
+  height: 300px; /* Set a height for the div to see the background */
+  width: 100%; /* Set a width for the div */
+  z-index: 43;
+}
+
+.video {
+
+  z-index: 49;
+}
+
+.gif {
+  width: 45%;
+  top: 30%;
+left: 30%;
+  position: absolute;
+  z-index: 4;
+  
+  
+}
+
+ /*Lost */
+
+#TextLost1 {color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+top: 10%;
+left: 38%;
+z-index: 10;
+font-size: 90px;
+ }
+
+  .subtitlesL{ width: 90%; height: 90%; background-color: rgb(0, 0, 0); opacity: calc(0.7);
+position: absolute;
+top: 50%;
+  left: 50%;
+ transform: translate(-50%,-50%);
+    border: 10px solid #000000;
+   z-index: 5;
+
+ }
+
+ .MonstreL { width: 20%; height: 35%;
+    position: absolute;
+top: 55%;
+  left: 20%;
+
+ transform: translate(-50%,-50%);
+ transform: scaleX(-1);
+ z-index: 40; }
+
+ .Recommencer { color: rgb(255, 255, 255);
+position: absolute;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+top: 70.5%;
+left: 45%;
+z-index: 12;
+font-size: 85px;
+text-decoration: none;
+
+}
+
+.Recommencer:hover {
+  transform: scale(1.5); 
+  transition: 0.2s;
+}
+
+
+
+ /*Page4*/
+
+.gif2 {
+  width: 45%;
+  top: 20%;
+left: 30%;
+  position: absolute;
+  z-index: 4;
+}
+
+ #Textp4 {color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+top: 87%;
+left: 18%;
+z-index: 10;
+font-size: 60px;
+ }
+
+ .BASICRedirect4 { width: 10%; height: 16%; background-color: rgb(255, 0, 0); opacity: 0;
+    -webkit-text-fill-color: rgb(255, 0, 0);
+position: absolute;
+top: 30%;
+  left: 8%;
+ transform: translate(-50%,-50%);
+   z-index: 10;
+    
+}
+ .BASICRedirect4:hover {
+opacity: 0.7;
+  transition: 0.5s
+ }
+
+  .SPECIALRedirect4 { width: 10%; height: 16%; background-color: rgb(255, 0, 0); opacity: 0;
+    -webkit-text-fill-color: rgb(255, 0, 0);
+position: absolute;
+top: 50%;
+  left: 8%;
+ transform: translate(-50%,-50%);
+   z-index: 10;
+    
+}
+ .SPECIALRedirect4:hover {
+opacity: 0.7;
+  transition: 0.5s
+ }
+
+   .RIPOSTERedirect4 { width: 10%; height: 16%; background-color: rgb(255, 0, 0); opacity: 0;
+    -webkit-text-fill-color: rgb(255, 0, 0);
+position: absolute;
+top: 70%;
+  left: 8%;
+ transform: translate(-50%,-50%);
+   z-index: 10;
+    
+}
+ .RIPOSTERedirect4:hover {
+opacity: 0.7;
+  transition: 0.5s
+ }
+
+
+
+  /*Page5*/
+
+.Monstre2 { width: 30%; height: 40%;
+    position: absolute;
+top: 20%;
+  left: 60%;
+
+ transform: translate(-50%,-50%);
+ transform: scaleX(-1);
+ z-index: 2; }
+
+  #Stagetext1 {color: rgb(0, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+top: 10%;
+left: 44%;
+z-index: 10;
+font-size: 80px;
+ }
+
+  .BASICRedirect2 { width: 10%; height: 16%; background-color: rgb(255, 255, 255); opacity: 0;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+position: absolute;
+top: 30%;
+  left: 8%;
+ transform: translate(-50%,-50%);
+   z-index: 10;
+    
+}
+ .BASICRedirect2:hover {
+opacity: 0.7;
+  transition: 0.5s
+ }
+
+  .SPECIALRedirect2 { width: 10%; height: 16%; background-color: rgb(255, 255, 255); opacity: 0;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+position: absolute;
+top: 70%;
+  left: 8%;
+ transform: translate(-50%,-50%);
+   z-index: 10;
+    
+}
+ .SPECIALRedirect2:hover {
+opacity: 0.7;
+  transition: 0.5s
+ }
+
+   .RIPOSTERedirect2 { width: 10%; height: 16%; background-color: rgb(255, 255, 255); opacity: 0;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+position: absolute;
+top: 50%;
+  left: 8%;
+ transform: translate(-50%,-50%);
+   z-index: 10;
+    
+}
+ .RIPOSTERedirect2:hover {
+opacity: 0.7;
+  transition: 0.5s
+ }
+
+
+ /*Page7*/
+
+
+ .Boss { width: 40%; height: 50%;
+    position: absolute;
+top: 35%;
+  left: 70%;
+
+ transform: translate(-50%,-50%);
+ z-index: 2; }
+
+   .subtitlesB{ width: 90%; height: 90%; background-color: rgb(0, 0, 0); opacity: calc(0.7);
+position: absolute;
+top: 50%;
+  left: 50%;
+ transform: translate(-50%,-50%);
+    border: 10px solid #000000;
+   z-index: 5;
+   
+ }
+
+   #Textp7 {color: rgb(255, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+top: 80%;
+left: 27%;
+z-index: 10;
+font-size: 80px;
+ }
+
+
+ 
+ /*Page8*/
+ 
+ .Heart1 { width: 3%; height: 5%;
+    position: absolute;
+top: 18%;
+  left: 64%;
+
+ transform: translate(-50%,-50%);
+ z-index: 6; }
+
+  .Heart2 { width: 3%; height: 5%;
+    position: absolute;
+top: 18%;
+  left: 68%;
+
+ transform: translate(-50%,-50%);
+ z-index: 6; }
+
+  .Heart3 { width: 3%; height: 5%;
+    position: absolute;
+top: 18%;
+  left: 72%;
+
+ transform: translate(-50%,-50%);
+ z-index: 6; }
+
+ .gifBoss {
+  width: 60%;
+  top: 5%;
+left: 15%;
+  position: absolute;
+  z-index: 4;
+}
+
+ .gifBossT {
+  width: 45%;
+  top: -35%;
+left: 50%;
+  position: absolute;
+  z-index: 4;
+}
+
+ .Heart11 { width: 3%; height: 5%;
+    position: absolute;
+top: 10%;
+  left: 64%;
+
+ transform: translate(-50%,-50%);
+ z-index: 6; }
+
+  .Heart22 { width: 3%; height: 5%;
+    position: absolute;
+top: 10%;
+  left: 68%;
+
+ transform: translate(-50%,-50%);
+ z-index: 6; }
+
+  .Heart33 { width: 3%; height: 5%;
+    position: absolute;
+top: 10%;
+  left: 72%;
+
+ transform: translate(-50%,-50%);
+ z-index: 6; }
+
+   #Stagetext2 {color: rgb(0, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+top: 4%;
+left: 44%;
+z-index: 10;
+font-size: 80px;
+   }
+
+    .Move3 {
+  width: 115%;
+  top: -40%;
+left: -15%;
+  position: absolute;
+  z-index: 4;
+}
+
+ #Textp15 {color: rgb(119, 255, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+top: 40%;
+left: 17%;
+z-index: 10;
+font-size: 130px;
+ }
+
+ .Next2 { color: rgb(255, 255, 255);
+position: absolute;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+top: 60%;
+left: 40%;
+z-index: 12;
+font-size: 55px;
+text-decoration: none;
+
+}
+
+.Next2:hover {
+  transform: scale(1.5); 
+  transition: 0.2s;
+}
+
+ .jouer1 { color: rgb(68, 255, 0);
+position: absolute;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+top: 40%;
+left: 50%;
+z-index: 12;
+font-size: 350px;
+text-decoration: none;
+
+}
+
+.jouer1:hover {
+  transform: scale(1.5); 
+  transition: 0.2s;
+}
+
+
+#yap2 {color: rgb(255, 255, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+top: 5%;
+left: 10%;
+z-index: 3;
+font-size: 100px;
+
+}
+
+
+#yap3 {color: rgb(255, 255, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+top: 40%;
+left: 10%;
+z-index: 3;
+font-size: 100px;
+
+}
+
+
+audio {
+  display: none;
+}
+
+.Lnext { color: rgb(255, 255, 255);
+position: absolute;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+top: 87.5%;
+left: 82%;
+z-index: 12;
+font-size: 35px;
+text-decoration: none;
+
+}
+
+.Lnext:hover {
+  transform: scale(1.5); 
+  transition: 0.2s;
+}
